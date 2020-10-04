@@ -23,6 +23,11 @@ public class Server {
             out_atacante = new PrintWriter(atacante.getOutputStream(), true);
             out_defensor = new PrintWriter(defensor.getOutputStream(), true);
             
+            System.out.println("Defina o numero de jogadas disponíveis");
+            int numJogadas = new Scanner(System.in).nextInt();
+            out_atacante.println(numJogadas);
+            out_defensor.println(numJogadas);
+            
             Scanner in_atacante, in_defensor;
             in_atacante = new Scanner(atacante.getInputStream());
             in_defensor = new Scanner(defensor.getInputStream());

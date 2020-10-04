@@ -19,7 +19,7 @@ public class ClientDefensor {
             PrintWriter outServer = new PrintWriter(client.getOutputStream(),true);
             String jogada =  "";
             faixaAnterior = ' ';
-            int numJogadas = 4;
+            int numJogadas = inServer.nextInt();
             int resultado = 0;
             //endregion
             
