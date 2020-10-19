@@ -18,6 +18,7 @@ public class ClientDefensor {
             Scanner inUser = new Scanner(System.in);
             PrintWriter outServer = new PrintWriter(client.getOutputStream(),true);
             String jogada =  "";
+            String jogadaAtacante = "";
             faixaAnterior = ' ';
             int numJogadas = inServer.nextInt();
             int resultado = 0;
@@ -31,7 +32,9 @@ public class ClientDefensor {
                     numJogadas -= 1;
                     outServer.println(jogada);
                     resultado = Integer.parseInt(inServer.next());
+                    jogadaAtacante = inServer.next();
                     divulgarResultado(resultado);
+                    System.out.println("JOGADA DO ATACANTE: "+ jogadaAtacante);
                     System.out.println("####################################\n");
                 }
             }

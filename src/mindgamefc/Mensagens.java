@@ -21,9 +21,9 @@ public class Mensagens {
         System.out.println(">>>REGRAS<<<");
         System.out.println("- O jogo é baseado na adivinhação;");
         System.out.println("- Os dois jogadores, um atacante e um defensor," +
-                " tem até **5 jogadas disponíveis**;");
+                " tem um numero limitado de jogadas disponíveis;");
         System.out.println("- O tabuleiro é formado por 3 FAIXAS, que vão de A à C, tendo a quarta faixa D que é o GOL"+
-            "\nAs FAIXAS A e C possuem 4 casas, de 0 à 3, e a FAIXA B possui 3 casas, de 0 a 2. A faixa D(GOL) possui 3 casas, equiavelentes ao canto "
+            "\nAs FAIXAS A e C possuem 4 casas, de 0 à 3, e a FAIXA B possui 3 casas, de 0 a 2. A faixa D(GOL) possui 3 casas, equivalentes ao canto "
                 + "esquerdo,meio do gol e canto direito");
         System.out.println("- A cada rodada, tanto o defensor quanto o atacante escolhem suas JOGADAS,"
                 + " compostas de LETRA DA FAIXA e NUMERO DA CASA;");

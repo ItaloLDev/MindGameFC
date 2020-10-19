@@ -45,14 +45,17 @@ public class Server {
                     case 1:
                         out_atacante.println(1);
                         out_defensor.println(1);
+                        out_defensor.println(atac_jogada);
                         break;
                     case 2:
                         out_atacante.println(0);
                         out_defensor.println(0);
+                        out_defensor.println(atac_jogada);
                         break;
                     case 3:
                         out_atacante.println(-1);
                         out_defensor.println(-1);
+                        out_defensor.println(atac_jogada);
                         break;
                     default:
                         break;
