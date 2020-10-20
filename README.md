@@ -1,6 +1,6 @@
 # MindGameFC
 Reposítorio de jogo MindGameFC desenvolvido para trabalho da disciplina INF015
 
-Discente: Italo Luis Gomes Lacerda dos Santos
+Discentes: Italo Luis e Camila Marques
 
 Matrícula:  2017216018
